@@ -40,4 +40,4 @@ Links to Animation APIs used in this project
 Conclusion
 ----------
 
-AnimatedCounter is a simple project that demonstrates how to use the AnimatedContent API in Compose to create an animated counter. The project uses a Row composable to display each digit in the number, and the AnimatedContent composable is used to animate the change in the digit. The slideInVertically and slideOutVertically functions are used to define the animation, and the tween function is used to specify the duration and easing of the animation. The LocalTextStyle.current.copy function is used to set the font feature settings to "tnum", which is used to display the digits as tabular numbers.
+AnimatedCounter is a simple project that demonstrates how to use the AnimatedContent API in Compose to create an animated counter. The project uses a Row composable to display each digit in the number, and the AnimatedContent composable is used to animate the change in the digit. The slideInVertically and slideOutVertically functions are used to define the animation, and the tween function is used to specify the duration and easing of the animation.
