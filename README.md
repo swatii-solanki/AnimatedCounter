@@ -2,6 +2,10 @@
 
 AnimatedCounter is a simple Android project that demonstrates how to use the AnimatedContent API in Compose to create an animated counter. The counter displays a random number between 10,000 and 90,000, and each digit in the number is animated separately.
 
+
+![animated_counter_record](https://github.com/swatii-solanki/AnimatedCounter/assets/43872077/12a31367-414a-42a5-9011-305acf0b8c03)
+
+
 Technique Used
 --------------
 
@@ -11,7 +15,6 @@ The AnimatedContent composable is used to animate the change in the digit. The t
 
 The slideInVertically and slideOutVertically functions are used to define the animation, and the tween function is used to specify the duration and easing of the animation.
 
-The LocalTextStyle.current.copy function is used to set the font feature settings to "tnum", which is used to display the digits as tabular numbers.
 
 Code Overview
 -------------
